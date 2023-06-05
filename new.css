@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background: black;
+}
+
+img {
+  -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.329));
+  transform-origin: center;
+  transform: perspective(800px) rotateY(20deg);
+  max-width: 320px;
+  transition: 0.3s ease-out;
+}
+
+img:hover {
+  transform: perspective(800px) rotate(0);
+}
+
+
+
+
